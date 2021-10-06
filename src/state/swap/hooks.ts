@@ -87,9 +87,9 @@ export function tryParseAmount(value?: string, currency?: Currency): CurrencyAmo
 }
 
 const BAD_RECIPIENT_ADDRESSES: string[] = [
-  '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f', // v2 factory
-  '0xf164fC0Ec4E93095b804a4795bBe1e041497b92a', // v2 router 01
-  '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D', // v2 router 02
+  '0xD7ACd2a9FD159E69Bb102A1ca21C9a3e3A5F771B', // v2 factory
+  '0x7EF2e0048f5bAeDe046f6BF797943daF4ED8CB47', // v2 router 01
+  '0xDA0bab807633f07f013f94DD0E6A4F96F8742B53', // v2 router 02
 ]
 
 /**
@@ -279,7 +279,10 @@ export function useDefaultsFromURLSearch():
       }),
     )
 
-    setResult({ inputCurrencyId: parsed[Field.INPUT].currencyId, outputCurrencyId: '0x2024755A5A8B878D61f32cd585a20d196F15dDB7' })
+    setResult({
+      inputCurrencyId: parsed[Field.INPUT].currencyId,
+      outputCurrencyId: '0x2024755A5A8B878D61f32cd585a20d196F15dDB7',
+    })
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [dispatch, chainId])
 
