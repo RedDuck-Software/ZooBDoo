@@ -21,8 +21,8 @@
     {
       "name": "ZBDO Token",
       "symbol": "ZBDO",
-      "address": "0x2024755a5a8b878d61f32cd585a20d196f15ddb7",
-      "chainId": 56,
+      "address": "0xff20fE00eE9E52A877B0F04ebCE811825d182582",
+      "chainId": 97,
       "decimals": 18,
       "logoURI": "https://i.ibb.co/17csfWh/zbdo-logo-token.png"
     },

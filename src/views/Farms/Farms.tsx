@@ -114,7 +114,7 @@ const FarmBG = styled.div`
   background-size: cover;
 `
 
-const NUMBER_OF_FARMS_VISIBLE = 12
+const NUMBER_OF_FARMS_VISIBLE = 1
 
 const getDisplayApr = (cakeRewardsApr?: number, lpRewardsApr?: number) => {
   if (cakeRewardsApr && lpRewardsApr) {
@@ -318,8 +318,8 @@ const Farms: React.FC = () => {
 
     return row
   })
-  if(!query){
-    rowData = rowData.filter(data => data.farm.pid === 441);
+  if (!query) {
+    rowData = rowData.filter((data) => data.farm.pid === 441)
   }
 
   const renderContent = (): JSX.Element => {

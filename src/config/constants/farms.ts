@@ -9,14 +9,14 @@ const farms: FarmConfig[] = [
     pid: 441,
     lpSymbol: 'ZBDO-BNB LP',
     lpAddresses: {
-      97: '0xd9145CCE52D386f254917e481eB44e9943F39138',
+      97: '',
       56: '0xAD52fEbea684EDB7325B3A97Dcaf09593De765f6',
     },
     token: tokens.zbdo,
     quoteToken: tokens.wbnb,
   },
   {
-    pid: 9,
+    pid: 0,
     lpSymbol: 'BURGER-BNB LP',
     lpAddresses: {
       97: '0xE66790075ad839978fEBa15D4d8bB2b415556a1D',

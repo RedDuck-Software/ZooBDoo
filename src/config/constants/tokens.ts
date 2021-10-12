@@ -68,7 +68,7 @@ const tokens = {
     symbol: 'ZBDO',
     address: {
       56: '0x2024755a5a8b878d61f32cd585a20d196f15ddb7',
-      97: '',
+      97: '0xff20fE00eE9E52A877B0F04ebCE811825d182582',
     },
     decimals: 18,
     projectLink: '',
@@ -680,7 +680,7 @@ const tokens = {
     symbol: 'wBNB',
     address: {
       56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
-      97: '0xae13d989dac2f0debff460ac112a837c89baa7cd',
+      97: '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',
     },
     decimals: 18,
     projectLink: 'https://pancakeswap.finance/',
