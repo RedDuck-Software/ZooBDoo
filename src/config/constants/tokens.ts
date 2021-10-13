@@ -68,7 +68,7 @@ const tokens = {
     symbol: 'ZBDO',
     address: {
       56: '0x2024755a5a8b878d61f32cd585a20d196f15ddb7',
-      97: '0xff20fE00eE9E52A877B0F04ebCE811825d182582',
+      97: '0x5f15388C04bCCF24Be0c50A9ab71F41Bae1de8B9',
     },
     decimals: 18,
     projectLink: '',

@@ -7,7 +7,7 @@ const pools: PoolConfig[] = [
     stakingToken: tokens.zbdo,
     earningToken: tokens.wbnb,
     contractAddress: {
-      97: '0x7047e28b973F68E8046CeA844B2ED23ABd03B17e',
+      97: '0x54d40618Cb89854E3eA237D4E7a6b1E780b92f8B',
       56: '0x3923E0d738fd9Ab57b429a4b3c63a2f7a0823596',
     },
     poolCategory: PoolCategory.CORE,
