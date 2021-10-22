@@ -1,4 +1,8 @@
 export default {
+  smartChefInitializable: {
+    97: '0x111a83660F0b1C694E8d4586dd6E21256911D98D',
+    56: '0x3923E0d738fd9Ab57b429a4b3c63a2f7a0823596',
+  },
   masterChef: {
     97: '0x1d32c2945C8FDCBc7156c553B7cEa4325a17f4f9',
     56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',

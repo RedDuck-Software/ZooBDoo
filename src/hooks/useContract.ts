@@ -24,6 +24,7 @@ import {
   getBunnySpecialCakeVaultContract,
   getBunnySpecialPredictionContract,
   getFarmAuctionContract,
+  getSmartChefInitializableContract,
 } from 'utils/contractHelpers'
 import { getMulticallAddress } from 'utils/addressHelpers'
 
@@ -56,6 +57,11 @@ export const useIfoV2Contract = (address: string) => {
 export const useERC20 = (address: string) => {
   const { library } = useActiveWeb3React()
   return useMemo(() => getBep20Contract(address, library.getSigner()), [address, library])
+}
+
+export const useSmartChefInitializable = () => {
+  const { library } = useActiveWeb3React()
+  return useMemo(() => getSmartChefInitializableContract(library.getSigner()), [library])
 }
 
 /**
